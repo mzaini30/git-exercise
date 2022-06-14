@@ -1,4 +1,5 @@
 {
+	"name": "git-exercise",
 	"version": "1.0.0",
 	"devDependencies": {
 		"bumpp": "^7.1.1",
@@ -6,7 +7,7 @@
 		"simple-git-hooks": "^2.8.0"
 	},
 	"scripts": {
-		"release": "bumpp --tags --commit",
+		"release": "bumpp --tag --commit",
 		"prettier": "prettier --write '**/*.ts'"
 	},
 	"simple-git-hooks": {
