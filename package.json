@@ -1,6 +1,6 @@
 {
 	"name": "git-exercise",
-	"version": "2.0.1",
+	"version": "2.1.0",
 	"devDependencies": {
 		"bumpp": "^7.1.1",
 		"changelogen": "^0.1.1",
