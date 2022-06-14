@@ -1,3 +1,3 @@
 let myName: string
 myName = 'Zen'
-console.log(myName)
+console.log(myName) 
