@@ -3,11 +3,12 @@
 	"version": "2.0.1",
 	"devDependencies": {
 		"bumpp": "^7.1.1",
+		"changelogen": "^0.1.1",
 		"prettier": "^2.6.2",
 		"simple-git-hooks": "^2.8.0"
 	},
 	"scripts": {
-		"release": "bumpp --tag --commit",
+		"release": "mv CHANGELOG.md .cache.md && changelogen > CHANGELOG.md && echo .cache.md >> CHANGELOG.md && bumpp --tag --commit",
 		"prettier": "prettier --write '**/*.ts'"
 	},
 	"simple-git-hooks": {
