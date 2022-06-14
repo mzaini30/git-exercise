@@ -1,0 +1,14 @@
+{
+	"devDependencies": {
+		"bumpp": "^7.1.1",
+		"prettier": "^2.6.2",
+		"simple-git-hooks": "^2.8.0"
+	},
+	"scripts": {
+		"release": "bumpp --tag --commit",
+		"prettier": "prettier --write '**/*.ts'"
+	},
+	"simple-git-hooks": {
+		"pre-push": "npm run prettier"
+	}
+}
