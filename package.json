@@ -6,7 +6,7 @@
 		"simple-git-hooks": "^2.8.0"
 	},
 	"scripts": {
-		"release": "bumpp --tag --commit",
+		"release": "bumpp --tags --commit",
 		"prettier": "prettier --write '**/*.ts'"
 	},
 	"simple-git-hooks": {
