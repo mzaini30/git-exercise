@@ -1,5 +1,5 @@
 {
-	"version": "0.0.0",
+	"version": "0.0.1",
 	"devDependencies": {
 		"bumpp": "^7.1.1",
 		"prettier": "^2.6.2",
