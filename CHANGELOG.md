@@ -2,12 +2,7 @@
 
 ### 🚀 Enhancements
 
-  - Add more spaces (f79cac6)
-
-
-### 📖 Documentation
-
-  - Add space (18b53ee)
+  - Change (4777b9f)
 
 
 ### ❤️  Contributors
@@ -16,6 +11,6 @@
 
 ----
 
-Changes from **v2.0.0...master**
+Changes from **v2.0.1...master**
 
 

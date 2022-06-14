@@ -8,7 +8,7 @@
 		"simple-git-hooks": "^2.8.0"
 	},
 	"scripts": {
-		"release": "mv CHANGELOG.md .cache.md && changelogen > CHANGELOG.md && echo .cache.md >> CHANGELOG.md && bumpp --tag --commit",
+		"release": "mv CHANGELOG.md .cache.md && changelogen > CHANGELOG.md && cat .cache.md >> CHANGELOG.md && bumpp --tag --commit",
 		"prettier": "prettier --write '**/*.ts'"
 	},
 	"simple-git-hooks": {
